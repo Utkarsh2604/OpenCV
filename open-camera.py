@@ -9,10 +9,10 @@ while(True):
 
     cv2.imshow('frame',frame)#Showing Frame
 
-    if cv2.waitKey(20) & 0xFF == ord('x'):#Loop To Continue Showing Output
+    if cv2.waitKey(20) & 0xFF == ord('z'):#Loop To Continue Showing Output
         break
 
 cap.release()
 cv2.destroyAllWindows()
 
-"""Use 'X' Button to Quit"""
+"""Use 'z' Button to Quit"""
