@@ -15,10 +15,10 @@ while(True):
     cv2.imshow('frame1',bw)#Showing B&w Frame
 
 
-    if cv2.waitKey(20) & 0xFF == ord('C'):#Loop To Continue Showing Output
+    if cv2.waitKey(20) & 0xFF == ord('x'):#Loop To Continue Showing Output
         break
 
 cap.release()
 cv2.destroyAllWindows()
 
-"""Use 'C' Button to Quit"""
+"""Use 'x' Button to Quit"""
